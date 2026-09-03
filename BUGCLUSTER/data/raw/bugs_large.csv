@@ -1,0 +1,151 @@
+bug_id,title,description,priority,severity,component,status,developer
+BUG-001,Password reset fails,Users cannot complete the password reset process,High,Major,Authentication,Open,Rahul
+BUG-002,Payment timeout,Payment request remains pending and eventually times out,Medium,Major,Payment,Open,Arjun
+BUG-003,Text overlaps,Page text overlaps with other interface elements,High,Critical,Frontend,Open,Sneha
+BUG-004,Slow dashboard,Dashboard takes too long to load its widgets,Medium,Major,Dashboard,Closed,Priya
+BUG-005,Search filter broken,Search filters do not correctly narrow results,Medium,Major,Search,Open,Vikram
+BUG-006,Notification delayed,Notifications arrive several minutes late,Medium,Major,Notifications,Open,Priya
+BUG-007,Missing API field,Expected field is missing from the API response,Low,Major,API,Open,Arjun
+BUG-008,Incorrect database value,Stored value does not match the submitted data,High,Minor,Database,Open,Vikram
+BUG-009,Page loads slowly,Application page takes too long to load,Medium,Major,Performance,Closed,Priya
+BUG-010,Large file upload timeout,Large files fail to upload before completion,Medium,Minor,File Upload,Open,Sneha
+BUG-011,Session expires unexpectedly,Users are logged out while actively using the application,Medium,Critical,Authentication,Open,Rahul
+BUG-012,Duplicate payment,The same transaction is charged more than once,Low,Minor,Payment,Open,Arjun
+BUG-013,Text overlaps,Page text overlaps with other interface elements,High,Major,Frontend,Open,Sneha
+BUG-014,Dashboard data incorrect,Dashboard displays outdated information,Medium,Major,Dashboard,Open,Priya
+BUG-015,Search returns wrong results,Search displays unrelated results,Medium,Critical,Search,Open,Vikram
+BUG-016,Notification delayed,Notifications arrive several minutes late,Medium,Major,Notifications,Open,Priya
+BUG-017,API endpoint unavailable,Expected API endpoint cannot be reached,Low,Major,API,Open,Arjun
+BUG-018,Database connection failure,Application cannot connect to the database,Low,Major,Database,Open,Vikram
+BUG-019,Slow response time,Application responses take several seconds,Low,Major,Performance,Open,Priya
+BUG-020,Uploaded file missing,Successfully uploaded file cannot be found,Medium,Major,File Upload,Closed,Sneha
+BUG-021,Invalid login error,Valid credentials result in an unexpected authentication error,High,Major,Authentication,Open,Rahul
+BUG-022,Card validation error,Valid card details are incorrectly rejected,Low,Major,Payment,Open,Arjun
+BUG-023,Broken navigation menu,Navigation menu does not open correctly,Medium,Critical,Frontend,Open,Sneha
+BUG-024,Dashboard widgets missing,Some dashboard widgets are not displayed,High,Critical,Dashboard,Closed,Priya
+BUG-025,Search returns wrong results,Search displays unrelated results,Medium,Major,Search,Closed,Vikram
+BUG-026,Email notification failure,Notification emails are not sent successfully,Low,Minor,Notifications,Open,Priya
+BUG-027,API timeout,API request takes too long and times out,Medium,Major,API,Open,Arjun
+BUG-028,Database timeout,Database operation exceeds the expected response time,High,Major,Database,Closed,Vikram
+BUG-029,Page loads slowly,Application page takes too long to load,Low,Minor,Performance,Open,Priya
+BUG-030,Invalid file accepted,Application accepts files with unsupported formats,Medium,Critical,File Upload,Open,Sneha
+BUG-031,Session expires unexpectedly,Users are logged out while actively using the application,High,Major,Authentication,Open,Rahul
+BUG-032,Refund failure,Refund request fails and the amount is not returned,Medium,Critical,Payment,Open,Arjun
+BUG-033,Missing UI element,Expected interface element is not displayed,High,Major,Frontend,Open,Sneha
+BUG-034,Dashboard widgets missing,Some dashboard widgets are not displayed,Medium,Minor,Dashboard,Open,Priya
+BUG-035,Search returns no results,Existing records cannot be found through search,Medium,Minor,Search,Open,Vikram
+BUG-036,Email notification failure,Notification emails are not sent successfully,Medium,Major,Notifications,Open,Priya
+BUG-037,Missing API field,Expected field is missing from the API response,Medium,Major,API,Open,Arjun
+BUG-038,Database migration error,Database migration fails during deployment,Low,Major,Database,Open,Vikram
+BUG-039,Slow response time,Application responses take several seconds,High,Critical,Performance,Open,Priya
+BUG-040,Uploaded file missing,Successfully uploaded file cannot be found,High,Major,File Upload,Open,Sneha
+BUG-041,Session expires unexpectedly,Users are logged out while actively using the application,High,Critical,Authentication,Open,Rahul
+BUG-042,Checkout payment crash,Checkout crashes when selecting a payment method,Medium,Major,Payment,Closed,Arjun
+BUG-043,Form alignment issue,Form fields are incorrectly aligned on the page,Medium,Major,Frontend,Closed,Sneha
+BUG-044,Dashboard layout issue,Widgets overlap when the dashboard is loaded,Medium,Minor,Dashboard,Open,Priya
+BUG-045,Search returns wrong results,Search displays unrelated results,High,Major,Search,Closed,Vikram
+BUG-046,Notification preference ignored,Disabled notifications continue to be delivered,Medium,Major,Notifications,Open,Priya
+BUG-047,API returns 500 error,API request fails with an internal server error,Medium,Major,API,Open,Arjun
+BUG-048,Duplicate database record,The same record is inserted multiple times,High,Major,Database,Open,Vikram
+BUG-049,Performance degradation,Application becomes slower after extended usage,High,Major,Performance,Open,Priya
+BUG-050,File size validation issue,File size restrictions are not applied correctly,Low,Minor,File Upload,Open,Sneha
+BUG-051,Login page crashes,Application crashes when users attempt to log in,Medium,Major,Authentication,Open,Rahul
+BUG-052,Checkout payment crash,Checkout crashes when selecting a payment method,Low,Minor,Payment,Open,Arjun
+BUG-053,Text overlaps,Page text overlaps with other interface elements,Medium,Major,Frontend,Closed,Sneha
+BUG-054,Slow dashboard,Dashboard takes too long to load its widgets,High,Critical,Dashboard,Closed,Priya
+BUG-055,Search ranking incorrect,Relevant results appear below unrelated results,Low,Major,Search,Open,Vikram
+BUG-056,Notification preference ignored,Disabled notifications continue to be delivered,Medium,Major,Notifications,Closed,Priya
+BUG-057,Invalid API response,API returns an unexpected response structure,High,Major,API,Open,Arjun
+BUG-058,Database connection failure,Application cannot connect to the database,Medium,Critical,Database,Closed,Vikram
+BUG-059,CPU usage spike,CPU usage becomes unusually high during requests,High,Major,Performance,Open,Priya
+BUG-060,Large file upload timeout,Large files fail to upload before completion,Medium,Major,File Upload,Open,Sneha
+BUG-061,Account lockout issue,User account becomes locked after a normal login attempt,High,Minor,Authentication,Open,Rahul
+BUG-062,Payment failure,Credit card payment fails during checkout,Medium,Major,Payment,Open,Arjun
+BUG-063,Missing UI element,Expected interface element is not displayed,High,Major,Frontend,Open,Sneha
+BUG-064,Dashboard loading error,Dashboard fails while retrieving summary data,Medium,Major,Dashboard,Open,Priya
+BUG-065,Search pagination broken,Search results pagination does not work correctly,Medium,Major,Search,Open,Vikram
+BUG-066,Duplicate notification,Users receive the same notification multiple times,Medium,Minor,Notifications,Open,Priya
+BUG-067,API timeout,API request takes too long and times out,Medium,Major,API,Open,Arjun
+BUG-068,Database timeout,Database operation exceeds the expected response time,Low,Minor,Database,Open,Vikram
+BUG-069,Application freezes,Application becomes unresponsive during normal usage,High,Minor,Performance,Open,Priya
+BUG-070,File upload fails,Users cannot upload supported files,Medium,Major,File Upload,Open,Sneha
+BUG-071,Invalid login error,Valid credentials result in an unexpected authentication error,High,Minor,Authentication,Open,Rahul
+BUG-072,Duplicate payment,The same transaction is charged more than once,High,Major,Payment,Open,Arjun
+BUG-073,Form alignment issue,Form fields are incorrectly aligned on the page,Medium,Minor,Frontend,Closed,Sneha
+BUG-074,Dashboard loading error,Dashboard fails while retrieving summary data,Low,Minor,Dashboard,Open,Priya
+BUG-075,Search suggestions missing,Autocomplete suggestions are not displayed,Low,Critical,Search,Open,Vikram
+BUG-076,Notification delayed,Notifications arrive several minutes late,Medium,Major,Notifications,Closed,Priya
+BUG-077,API rate limit issue,Requests are incorrectly blocked by rate limiting,Medium,Critical,API,Open,Arjun
+BUG-078,Database connection failure,Application cannot connect to the database,Low,Major,Database,Open,Vikram
+BUG-079,Performance degradation,Application becomes slower after extended usage,High,Major,Performance,Open,Priya
+BUG-080,File upload progress broken,Upload progress indicator does not update,High,Major,File Upload,Open,Sneha
+BUG-081,Two factor authentication fails,Verification code is rejected even when it is valid,Medium,Minor,Authentication,Closed,Rahul
+BUG-082,Payment timeout,Payment request remains pending and eventually times out,Low,Major,Payment,Open,Arjun
+BUG-083,Broken navigation menu,Navigation menu does not open correctly,Low,Critical,Frontend,Open,Sneha
+BUG-084,Dashboard filter broken,Dashboard filters do not update displayed data,Low,Minor,Dashboard,Open,Priya
+BUG-085,Search ranking incorrect,Relevant results appear below unrelated results,High,Major,Search,Closed,Vikram
+BUG-086,Duplicate notification,Users receive the same notification multiple times,Low,Major,Notifications,Closed,Priya
+BUG-087,API endpoint unavailable,Expected API endpoint cannot be reached,Medium,Major,API,Open,Arjun
+BUG-088,Duplicate database record,The same record is inserted multiple times,High,Critical,Database,Open,Vikram
+BUG-089,Application freezes,Application becomes unresponsive during normal usage,Low,Minor,Performance,Open,Priya
+BUG-090,File upload progress broken,Upload progress indicator does not update,Medium,Major,File Upload,Open,Sneha
+BUG-091,Login page crashes,Application crashes when users attempt to log in,High,Minor,Authentication,Open,Rahul
+BUG-092,Duplicate payment,The same transaction is charged more than once,High,Major,Payment,Open,Arjun
+BUG-093,Modal does not close,Popup remains visible after clicking the close button,Medium,Minor,Frontend,Open,Sneha
+BUG-094,Dashboard filter broken,Dashboard filters do not update displayed data,Low,Critical,Dashboard,Open,Priya
+BUG-095,Search suggestions missing,Autocomplete suggestions are not displayed,High,Minor,Search,Open,Vikram
+BUG-096,Push notification broken,Push notifications do not appear on mobile devices,Medium,Minor,Notifications,Open,Priya
+BUG-097,API endpoint unavailable,Expected API endpoint cannot be reached,Medium,Critical,API,Open,Arjun
+BUG-098,Database update failure,Changes are not saved correctly in the database,Medium,Major,Database,Open,Vikram
+BUG-099,CPU usage spike,CPU usage becomes unusually high during requests,High,Major,Performance,Closed,Priya
+BUG-100,Invalid file accepted,Application accepts files with unsupported formats,Medium,Major,File Upload,Open,Sneha
+BUG-101,Logout not working,Logout action does not terminate the user session,High,Major,Authentication,Open,Rahul
+BUG-102,Payment status incorrect,Successful payments are displayed as failed,Medium,Major,Payment,Closed,Arjun
+BUG-103,Broken navigation menu,Navigation menu does not open correctly,Medium,Major,Frontend,Open,Sneha
+BUG-104,Dashboard widgets missing,Some dashboard widgets are not displayed,Low,Major,Dashboard,Open,Priya
+BUG-105,Search filter broken,Search filters do not correctly narrow results,Low,Critical,Search,Open,Vikram
+BUG-106,Wrong notification,Users receive notifications intended for another event,Low,Major,Notifications,Open,Priya
+BUG-107,API request validation failure,Valid API requests fail validation,Medium,Major,API,Open,Arjun
+BUG-108,Incorrect database value,Stored value does not match the submitted data,Medium,Major,Database,Open,Vikram
+BUG-109,High memory usage,Application consumes excessive memory during normal usage,Medium,Major,Performance,Closed,Priya
+BUG-110,File upload fails,Users cannot upload supported files,Medium,Minor,File Upload,Open,Sneha
+BUG-111,Authentication timeout,Login request takes too long and eventually times out,High,Major,Authentication,Open,Rahul
+BUG-112,Payment status incorrect,Successful payments are displayed as failed,Medium,Major,Payment,Closed,Arjun
+BUG-113,Responsive layout issue,Interface behaves incorrectly at different screen sizes,Low,Major,Frontend,Closed,Sneha
+BUG-114,Dashboard refresh issue,Refreshing the dashboard does not update metrics,High,Major,Dashboard,Open,Priya
+BUG-115,Search pagination broken,Search results pagination does not work correctly,Medium,Major,Search,Open,Vikram
+BUG-116,Email notification failure,Notification emails are not sent successfully,High,Major,Notifications,Open,Priya
+BUG-117,Invalid API response,API returns an unexpected response structure,High,Major,API,Open,Arjun
+BUG-118,Duplicate database record,The same record is inserted multiple times,High,Major,Database,Closed,Vikram
+BUG-119,Performance degradation,Application becomes slower after extended usage,High,Minor,Performance,Closed,Priya
+BUG-120,File upload fails,Users cannot upload supported files,Low,Major,File Upload,Closed,Sneha
+BUG-121,Authentication timeout,Login request takes too long and eventually times out,High,Major,Authentication,Closed,Rahul
+BUG-122,Card validation error,Valid card details are incorrectly rejected,Medium,Major,Payment,Open,Arjun
+BUG-123,Responsive layout issue,Interface behaves incorrectly at different screen sizes,High,Major,Frontend,Open,Sneha
+BUG-124,Dashboard filter broken,Dashboard filters do not update displayed data,Medium,Major,Dashboard,Closed,Priya
+BUG-125,Search returns no results,Existing records cannot be found through search,Low,Minor,Search,Open,Vikram
+BUG-126,Notification preference ignored,Disabled notifications continue to be delivered,Medium,Major,Notifications,Open,Priya
+BUG-127,API rate limit issue,Requests are incorrectly blocked by rate limiting,High,Major,API,Open,Arjun
+BUG-128,Database update failure,Changes are not saved correctly in the database,Medium,Major,Database,Open,Vikram
+BUG-129,Large data processing slow,Processing large datasets takes too long,Medium,Major,Performance,Closed,Priya
+BUG-130,File upload crash,Application crashes while uploading a file,Low,Major,File Upload,Open,Sneha
+BUG-131,Two factor authentication fails,Verification code is rejected even when it is valid,High,Critical,Authentication,Open,Rahul
+BUG-132,Payment failure,Credit card payment fails during checkout,Low,Critical,Payment,Open,Arjun
+BUG-133,Broken navigation menu,Navigation menu does not open correctly,High,Major,Frontend,Open,Sneha
+BUG-134,Dashboard layout issue,Widgets overlap when the dashboard is loaded,Medium,Major,Dashboard,Open,Priya
+BUG-135,Search returns no results,Existing records cannot be found through search,Medium,Minor,Search,Open,Vikram
+BUG-136,Notification delayed,Notifications arrive several minutes late,Low,Critical,Notifications,Open,Priya
+BUG-137,API authentication failure,Authenticated API requests are rejected,Medium,Minor,API,Closed,Arjun
+BUG-138,Incorrect database value,Stored value does not match the submitted data,Low,Critical,Database,Open,Vikram
+BUG-139,High memory usage,Application consumes excessive memory during normal usage,Medium,Major,Performance,Open,Priya
+BUG-140,File upload fails,Users cannot upload supported files,Medium,Major,File Upload,Open,Sneha
+BUG-141,Password reset fails,Users cannot complete the password reset process,Medium,Major,Authentication,Closed,Rahul
+BUG-142,Payment status incorrect,Successful payments are displayed as failed,High,Minor,Payment,Closed,Arjun
+BUG-143,Broken navigation menu,Navigation menu does not open correctly,Medium,Major,Frontend,Open,Sneha
+BUG-144,Dashboard refresh issue,Refreshing the dashboard does not update metrics,Medium,Minor,Dashboard,Open,Priya
+BUG-145,Search query error,Certain search queries cause an unexpected error,Low,Minor,Search,Open,Vikram
+BUG-146,Email notification failure,Notification emails are not sent successfully,Low,Major,Notifications,Closed,Priya
+BUG-147,API rate limit issue,Requests are incorrectly blocked by rate limiting,Medium,Major,API,Open,Arjun
+BUG-148,Missing database record,Expected record cannot be retrieved from the database,Medium,Major,Database,Open,Vikram
+BUG-149,Large data processing slow,Processing large datasets takes too long,High,Major,Performance,Open,Priya
+BUG-150,File upload fails,Users cannot upload supported files,Medium,Critical,File Upload,Open,Sneha
